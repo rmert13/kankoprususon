@@ -1,0 +1,87 @@
+/* Custom CSS for menu */
+.navbar-custom {
+    background-color: rgb(196, 20, 20);
+  }
+
+  .navbar-custom .navbar-nav .nav-link {
+    color: white; /* Menü bağlantılarının metin rengini beyaz yapar */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color:white /* Üzerine gelindiğinde metin rengini beyaz yapar */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: white; /* Menü bağlantılarının metin rengini beyaz yapar */
+    opacity: 0.8;
+}
+
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-brand {
+    margin-right: auto; /* Logo sağa yaslanır */
+    margin-left: 10px; /* Logo sola boşluk bırakır */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+    width: auto;
+  }
+  
+  .navbar-toggler.btn:hover {
+    border-radius: 10px;
+  }
+  
+  .navbar-brand {
+    height: auto;
+    margin-left: auto; /* Logo sağa yaslanır */
+    /* Logo sola boşluk bırakır */
+  }
+  
+  .social-icons {
+    position: fixed;
+    bottom: 10%;
+    left: 10px;
+  }
+  
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    margin-bottom: 5px; /* İkonlar arasında dikey boşluk */
+  }
+  
+  .social-icons a {
+    color: inherit; /* bağlantı rengini kaldırdı */
+    text-decoration: none; /* altındaki çizgiyi kaldırdı */
+  }
+  
+ 
+
+  .footer {
+    background-color: rgb(196, 20, 20);
+    color: white;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+  body {
+    padding-bottom: 100px; /* Footer yüksekliği + sosyal medya ikonları */
+  }
+  
